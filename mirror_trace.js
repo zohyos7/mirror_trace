@@ -127,10 +127,10 @@ function do_mirror() {
         var mouseold = {x: 0, y: 0};	
 
 	/* Drawing on Paint App */
-	ctx_mirror.lineWidth = 1.2;
+	ctx_mirror.lineWidth = 1.5;
 	ctx_mirror.lineJoin = 'round';
 	ctx_mirror.lineCap = 'round';
-	ctx_mirror.strokeStyle = 'blue';
+	ctx_mirror.strokeStyle = '#0DF4F6';
 	
 	/* Mouse Capturing Work */
 	canvas.addEventListener('mousemove', function(e) {
@@ -225,7 +225,7 @@ function do_mirror() {
 			if (inline) {
 				ctx_mirror.strokeStyle = 'red';
 			} else {
-				ctx_mirror.strokeStyle = 'blue';
+				ctx_mirror.strokeStyle = '#0DF4F6';
 			}
 
 			if (mirror) {
