@@ -296,7 +296,7 @@ function do_mirror() {
 					    ctx.clearRect(0, 0, canvas.width, canvas.height);
 						ctx_mirror.drawImage(imageObj, 0, 0, mywidth, myheight);
 						ctx_mirror.fillStyle = 'red';
-						ctx_mirror.globalAlpha=0.4;
+						ctx_mirror.globalAlpha=1;
 						ctx_mirror.beginPath();
 						if (mirror) {
 							ctx_mirror.arc(mywidth - xend, myheight - yend, endRadius, 0, 2 * Math.PI, false);
