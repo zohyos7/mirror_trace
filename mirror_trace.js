@@ -223,9 +223,9 @@ function do_mirror() {
 			timeDiff = (endTime - startTime)/1000;
 			
 			if (inline) {
-				ctx_mirror.strokeStyle = '#FFA200';
-			} else {
 				ctx_mirror.strokeStyle = '#0DF4F6';
+			} else {
+				ctx_mirror.strokeStyle = '#FE04DC';
 			}
 
 			if (mirror) {
