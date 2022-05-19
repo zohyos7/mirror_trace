@@ -127,7 +127,7 @@ function do_mirror() {
         var mouseold = {x: 0, y: 0};	
 
 	/* Drawing on Paint App */
-	ctx_mirror.lineWidth = 1.2;
+	ctx_mirror.lineWidth = 1.4;
 	ctx_mirror.lineJoin = 'round';
 	ctx_mirror.lineCap = 'round';
 	ctx_mirror.strokeStyle = '#0DF4F6';
@@ -223,7 +223,7 @@ function do_mirror() {
 			timeDiff = (endTime - startTime)/1000;
 			
 			if (inline) {
-				ctx_mirror.strokeStyle = 'red';
+				ctx_mirror.strokeStyle = '#FBFF00';
 			} else {
 				ctx_mirror.strokeStyle = '#0DF4F6';
 			}
